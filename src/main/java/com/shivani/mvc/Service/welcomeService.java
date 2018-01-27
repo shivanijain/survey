@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class welcomeService {
     public String getWelcomeMessage() {
-        return "Welcome to Rest.@RestController will not return view and has implicit @ResponseBody";
+        return "Welcome to Rest.@RestController will not return view and has implicit @ResponseBody!!!";
     }
 }
